@@ -1,0 +1,252 @@
+# Copyright (C) 2016 BuddyPress Instant Chat
+# This file is distributed under the same license as the BuddyPress Instant Chat package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Instant Chat 1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tomchat\n"
+"POT-Creation-Date: 2016-07-16 16:07:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/tomchat-options-page.php:11
+msgid "Unfortunately you must be an admin to make changes on this page"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (BuddyPress Instant Chat 1.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/tomchat-options-page.php:29 tomchat.php:185
+msgid "tomchat"
+msgstr ""
+
+#: admin/tomchat-options-page.php:30
+msgid "You can use the"
+msgstr ""
+
+#: admin/tomchat-options-page.php:30
+msgid "shortcode on any page to display the plugin chat page."
+msgstr ""
+
+#: admin/tomchat-options-page.php:42
+msgid "Settings"
+msgstr ""
+
+#: admin/tomchat-options-page.php:43 admin/tomchat-options-page.php:116
+msgid "Message Control"
+msgstr ""
+
+#: admin/tomchat-options-page.php:49
+msgid "Messages"
+msgstr ""
+
+#: admin/tomchat-options-page.php:54
+msgid "Message Avatar Width"
+msgstr ""
+
+#: admin/tomchat-options-page.php:66
+msgid "Message Avatar Height"
+msgstr ""
+
+#: admin/tomchat-options-page.php:78
+msgid "Message Name Display"
+msgstr ""
+
+#: admin/tomchat-options-page.php:82
+msgid "Username"
+msgstr ""
+
+#: admin/tomchat-options-page.php:83
+msgid "Email Address"
+msgstr ""
+
+#: admin/tomchat-options-page.php:84
+msgid "Display Name"
+msgstr ""
+
+#: admin/tomchat-options-page.php:85
+msgid "First Name"
+msgstr ""
+
+#: admin/tomchat-options-page.php:91
+msgid "Friends"
+msgstr ""
+
+#: admin/tomchat-options-page.php:96
+msgid "Enable Friends Only"
+msgstr ""
+
+#: admin/tomchat-options-page.php:106
+msgid ""
+"For this option to work you need to have the Friend Connections option "
+"enabled in the BuddyPress settings."
+msgstr ""
+
+#: admin/tomchat-options-page.php:117
+msgid "Access to messages for any chat."
+msgstr ""
+
+#: admin/tomchat-options-page.php:119
+msgid "User 1"
+msgstr ""
+
+#: admin/tomchat-options-page.php:120 admin/tomchat-options-page.php:124
+msgid "Search users by their ID, Username or Email"
+msgstr ""
+
+#: admin/tomchat-options-page.php:123
+msgid "User 2"
+msgstr ""
+
+#: admin/tomchat-options-page.php:126 tomchat.php:1004
+msgid "Search"
+msgstr ""
+
+#: tomchat.php:173
+msgid ""
+"tomchat requires <b>BuddyPress 2.0</b>, please ensure that "
+"BuddyPress is installed and up to date."
+msgstr ""
+
+#: tomchat.php:366 tomchat.php:1022
+msgid "You haven't started chatting with anybody yet."
+msgstr ""
+
+#: tomchat.php:461
+msgid "Start chat with"
+msgstr ""
+
+#: tomchat.php:463
+msgid "Continue chat with"
+msgstr ""
+
+#: tomchat.php:468
+msgid "<p>Sorry but you don't have any friends by that name!</p>"
+msgstr ""
+
+#: tomchat.php:470
+msgid "<p>Sorry but we couldn't find any users by that name!</p>"
+msgstr ""
+
+#: tomchat.php:590 tomchat.php:670
+msgid "Delivered"
+msgstr ""
+
+#: tomchat.php:592
+msgid "Read"
+msgstr ""
+
+#: tomchat.php:605
+msgid "This message has been removed by an admin!"
+msgstr ""
+
+#: tomchat.php:614
+msgid "There're currently no messages associated with this chat!"
+msgstr ""
+
+#: tomchat.php:739
+msgid "Message avatar height must be a number!"
+msgstr ""
+
+#: tomchat.php:743
+msgid "Message avatar width must be a number!"
+msgstr ""
+
+#: tomchat.php:747
+msgid "All of the fields must be populated!"
+msgstr ""
+
+#: tomchat.php:788
+msgid "Settings successfully saved."
+msgstr ""
+
+#: tomchat.php:804
+msgid "Sorry but user 1 could not be found"
+msgstr ""
+
+#: tomchat.php:811
+msgid "Sorry but user 2 could not be found"
+msgstr ""
+
+#: tomchat.php:821
+msgid "A chat hasn't been started between these users yet"
+msgstr ""
+
+#: tomchat.php:904
+msgid "Remove Message"
+msgstr ""
+
+#: tomchat.php:906
+msgid "Message was removed"
+msgstr ""
+
+#: tomchat.php:910
+msgid "Add Message"
+msgstr ""
+
+#: tomchat.php:923
+msgid "You must select 2 users"
+msgstr ""
+
+#: tomchat.php:942
+msgid "The message was successfully removed."
+msgstr ""
+
+#: tomchat.php:946
+msgid "The message was successfully added."
+msgstr ""
+
+#: tomchat.php:961
+msgid ""
+"<b>BuddyPress friend connections</b> must be enabled for <b>BuddyPress "
+"Instant Chat friends only</b> setting to work"
+msgstr ""
+
+#: tomchat.php:1003
+msgid "Search for user by their name"
+msgstr ""
+
+#: tomchat.php:1016 tomchat.php:1021
+msgid "Your Chats"
+msgstr ""
+
+#: tomchat.php:1028
+msgid "Enter message to send..."
+msgstr ""
+
+#: tomchat.php:1029
+msgid "Send Message"
+msgstr ""
+
+#: tomchat.php:1034
+msgid "Loading"
+msgstr ""
+
+#: tomchat.php:1085
+msgid "You must enter some text before you can send your message"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (BuddyPress Instant Chat 1.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (BuddyPress Instant Chat 1.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://iamrichardphelps.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Instant chat plugin for BuddyPress allowing user to connect and talk in real "
+"time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Richard Phelps"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid ""
+"buddypress, chat, instant, messaging, communication, contact, users, plugin, "
+"page, AJAX, social, free"
+msgstr ""

@@ -1,0 +1,351 @@
+.tomchat-user-search-button{
+    margin: 10px 0;
+}
+
+.tomchat-message-form{
+    display: none;
+}
+.tomchat-text-center{
+    text-align: center;
+}
+
+.tomchat-loading-spinner{
+    margin-bottom: 15px;
+}
+
+.tomchat-left-align, .tomchat-right-align{
+    clear: both;
+}
+
+
+.tomchat-message-container.tomchat-current-user:before{
+    left: 40px;
+}
+
+.tomchat-message-container.tomchat-other-user:before{
+    right: 40px;
+}
+
+.tomchat-message-container.tomchat-current-user:after{
+    left: 47px;
+}
+
+.tomchat-message-container.tomchat-other-user:after{
+    right: 47px;
+}
+
+.tomchat-conversations-title{
+    padding-top: 20px;
+}
+
+
+/* SONG changed code start */
+
+/*.tomchat-message-container.tomchat-current-user:after, .tomchat-message-container.tomchat-other-user:after{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    bottom: -13px;*/
+/*    border-width: 13px 13px 0;*/
+/*    border-style: solid;*/
+/*    border-color: #fff transparent;*/
+/*    display: block;*/
+/*    width: 0;*/
+/*}*/
+
+/*.tomchat-message{*/
+/*    margin: 0;*/
+/*    padding: 10px 0 30px 0;*/
+/*}*/
+
+/*.tomchat-textarea{*/
+/*    width: 100%;*/
+/*    height: 100px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.tomchat-left-align{*/
+/*    text-align: left;*/
+/*    float: left;*/
+/*}*/
+
+/*.tomchat-right-align{*/
+/*    text-align: left;*/
+/*    float: right;*/
+/*}*/
+
+/*.tomchat-message-container.tomchat-current-user, .tomchat-message-container.tomchat-other-user{*/
+/*    position: relative;*/
+/*    padding: 15px;*/
+/*    margin: 1em 0;*/
+/*    border: 5px solid #5a8f00;*/
+/*    color: #333;*/
+/*    background: #fff;*/
+/*    -webkit-border-radius: 10px;*/
+/*    -moz-border-radius: 10px;*/
+/*    border-radius: 10px;*/
+/*    width: 600px;*/
+/*}*/
+
+
+
+/*.tomchat-message-container.tomchat-current-user:before, .tomchat-message-container.tomchat-other-user:before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    bottom: -20px;*/
+/*    border-width: 20px 20px 0;*/
+/*    border-style: solid;*/
+/*    border-color: #5a8f00 transparent;*/
+/*    display: block;*/
+/*    width: 0;*/
+/*}*/
+
+
+/*.tomchat-message-user-avatar{*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+/*.tomchat-message-display-name{*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    margin: 0;*/
+/*    padding-left: 5px;*/
+/*}*/
+
+/*.tomchat-message-status{*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    font-size: 10px;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*  end */
+
+
+
+
+
+/* -------------------------------SONG Added CSS Section ----------------------------*/
+
+.tomchat-left-align{
+    text-align: left;
+    float: right;
+}
+.tomchat-message-form {
+    text-align: center;
+}
+
+.tomchat-right-align{
+    text-align: left;
+    float: left;
+}
+.tomchat-message-display-name{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.tomchat-message {
+    margin: 0;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.tomchat-textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    border:solid 1px;
+    border-radius:5px;
+    font-size: 14px;
+    border-color: darkgrey;
+}
+
+.tomchat-submit-message{
+    border:solid 1px;
+    border-radius:5px;
+    border-color: darkgrey;
+}
+.tomchat-message-user-avatar{
+    position: relative;
+    z-index: 1200;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:10px;
+    border-radius:30px !important;
+    border: solid 5px !important;
+    border-color: #f0f0f094 !important;
+}
+.tomchat-message-container.tomchat-current-user, .tomchat-message-container.tomchat-other-user{
+    position: relative;
+    padding: 0px;
+    margin: 1em 0;
+    border: 1px solid darkgrey;
+    color: #333;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 420px;
+    min-height:60px;
+}
+.tomchat-message-container.tomchat-other-user .tomchat-message{
+    margin-bottom:20px;
+}
+.tomchat-message-status{
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.tomchat-message-container.tomchat-current-user {
+    /*margin-right: -30px;*/
+    z-index: 1000;
+    float:left;
+}
+.tomchat-message-container.tomchat-other-user {
+    /*margin-left: -30px;*/
+    z-index: 1000;
+    float:right;
+    background:#c3cfdc33;
+}
+.tomchat-message-container.tomchat-current-user .tomchat-message-user-avatar {
+    float:right;
+}
+.tomchat-message-status{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    font-size: 10px;
+    padding: 10px;
+}
+.search-form_livechat {
+    text-align: center;
+}
+.chat_lists{
+    text-align: center;
+}
+.continue-chat {
+    text-align: center;
+}
+.start-chat {
+    text-align: center;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .tomchat-user-search-input {
+        text-align: center;
+        border-radius: 5px !important;
+        margin-left: 160px !important;
+        width: 170px;
+    }
+    .continue-chat:first-child > p {
+        margin-left:150px !important;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .tomchat-user-search-input {
+        text-align: center;
+        border-radius: 5px !important;
+        margin-left: 160px !important;
+        width: 170px;
+    }
+    .continue-chat:first-child > p {
+        margin-left:150px !important;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .tomchat-user-search-input {
+        text-align: center;
+        border-radius: 5px !important;
+        margin-left: 160px !important;
+        width: 170px;
+    }
+    .continue-chat:first-child > p {
+        margin-left:150px !important;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .tomchat-user-search-input {
+        text-align: center;
+        border-radius: 5px !important;
+        margin-left: 160px !important;
+        width: 170px;
+    }
+    .continue-chat:first-child > p {
+        margin-left:150px !important;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .tomchat-user-search-input {
+        text-align: center;
+        border-radius: 5px !important;
+        margin-left: 160px !important;
+        width: 170px;
+    }
+    .continue-chat:first-child > p {
+        margin-left:150px !important;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .tomchat-message-container.tomchat-current-user, .tomchat-message-container.tomchat-other-user {
+        width: 300px;
+    }
+    .tomchat-user-search-input {
+        text-align: center;
+        border-radius: 5px !important;
+        margin-left: 100px !important;
+        width: 170px;
+    }
+    .continue-chat:first-child > p {
+        margin-left:100px !important;
+    }
+}
+

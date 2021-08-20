@@ -1,0 +1,50 @@
+.tomchat-no-margin{
+    margin: 0;
+}
+
+.tomchat-error-message{
+    margin-bottom: 60px;
+}
+
+.tomchat-left-msg-control-search, .tomchat-right-msg-control-search, .tomchat-submit-msg-control-search{
+    display: inline-block;
+}
+
+.tomchat-left-msg-control-search{
+    padding-right: 10px;
+}
+
+.tomchat-right-msg-control-search{
+    padding-left: 10px;
+}
+
+.tomchat-left-msg-control-search label, .tomchat-right-msg-control-search label{
+    vertical-align: top;
+}
+
+.tomchat-submit-msg-control-search{
+    padding-left: 50px;
+}
+
+.tomchat-submit-msg-control-search p{
+    padding: 0;
+    margin: 0;
+}
+
+.tomchat-submit-msg-control-search input:active{
+    vertical-align: baseline !important;
+}
+
+.tomchat-message-control-table{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.tomchat-message-control-table td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tomchat-middle-align{
+    vertical-align: middle;
+}
